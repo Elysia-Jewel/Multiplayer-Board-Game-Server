@@ -1,6 +1,6 @@
 # Hybrid Multiplayer Board Game Server
 
-This project is a Concurrent Networked Board Game Server built in C++ for Linux. It implements a **Hybrid Concurrency Architecture** required for the CSN6214 assignment:
+This project is a C++ networked board game server that allows remote multiplayer interactions. It is developed to showcase learning milestones within the topic of Concurrency in Operating Systems. The server implements a Hybrid Concurrency Architecture to manage simultaneous game states.
 * **Clients:** Handled by separate **Processes** (using `fork()`).
 * **Server Internals:** Logger and Scheduler handled by **Threads** (using `pthread`).
 * **Synchronization:** Uses Process-Shared Mutexes and POSIX Shared Memory.
